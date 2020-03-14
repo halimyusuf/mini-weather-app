@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="weather-form">
+        <label for="city_name">City Name</label>
+        <input name="city_name" id="city_name" type="text">
+        <button>Submit</button>
+    </div>
+
+    <div class="weather">
+        <p id="city"></p>
+        <p id="weather"></p>
+        <p id="rain"></p>
+        <p id="wind"></p>
+        <p id="cloud"></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
